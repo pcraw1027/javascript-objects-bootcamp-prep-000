@@ -11,7 +11,7 @@ function updatePlaylist (playlist,key,value) {
 // key = "Slowdive"
 function removeFromPlaylist(playlist,key) {
   key = "Slowdive"
-  console.log(key)
-  delete playlist.playlist[key];
+  // console.log(key)
+  delete playlist.slowdive;
   return playlist
 }
