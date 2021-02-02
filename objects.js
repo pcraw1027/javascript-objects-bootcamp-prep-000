@@ -8,8 +8,8 @@ function updatePlaylist (playlist,key,value) {
 }
 
 
-
+key = "Slowdive"
 function removeFromPlaylist(playlist,key) {
-  delete playlist.key[1];
+  delete playlist.key;
   return playlist
 }
