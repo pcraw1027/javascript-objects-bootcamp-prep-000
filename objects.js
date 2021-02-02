@@ -1,4 +1,4 @@
-var playlist = {Slowdive: "Sometimes"}
+var playlist = {Slowdive: "Alison"}
 
 var key 
 var value 
