@@ -10,6 +10,6 @@ function updatePlaylist (playlist,key,value) {
 
 
 function removeFromPlaylist(playlist,key) {
-  delete playlist.key
+  delete playlist.key[0];
   return playlist
 }
