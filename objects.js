@@ -8,9 +8,9 @@ function updatePlaylist (playlist,key,value) {
 }
 
 
-// key = "Slowdive"
-function removeFromPlaylist() {
+key = "Slowdive"
+function removeFromPlaylist(playlist,key) {
  // key = "Slowdive"
-  delete playlist.Slowdive;
+  delete playlist[var];
   return playlist
 }
